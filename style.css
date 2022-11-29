@@ -1,0 +1,20 @@
+.body{
+	font-family: 'Roboto';
+}
+.container-fluid{
+	height: 100%;
+}
+.nav-link{
+	color: black;
+}
+.img-logo{
+	width: 35.49px;
+	height: 28px;
+}
+.navbar-nav{
+	padding-right: 0%;
+}
+#navbarNavDropdown{
+	padding-right: 0%
+	;
+}
