@@ -53,28 +53,99 @@ ul#main-menu a{
 	color: #545454;
 	margin-bottom: 50px;
 }
-button{
+#button-banner{
 	border-style: none;
 	padding-right: 10px;
 	background-color: white;
 }
 .introduce{
-	display: grid;
+	margin: 0px auto;
+	max-width: 950px;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0px auto;
-	margin-top: 50px;
-	max-width: 1200px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 24.23px;
+}
+.introduce-item{
+	margin-top: 55.14px;
+	margin-bottom: 55.14px;
+	margin-left: 27.14px;
+	margin-right: 27.14px;;
+}
+.icon1,.icon2,.icon3{
+	height: 300.51px;
+	width: 300.51px;
+	background: linear-gradient(180deg, #F5F5F5 -41.99%, rgba(250, 250, 250, 0) 79.29%);
+	text-align: center;
+	border-radius: 20px;
+}
+#introduce-h{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 24.48px;
+}
+#introduce-text{
+	font-size: 16px;
+	color: #545454;
+	line-height: 24px;
+	margin-top: 15.69px;
+}
 
-}
-.introduce-img:first-child{
-	grid-column: 4/5;
-}
-.introduce-img:nth-child(2){
-	grid-column: 6/7;
-}
-.introduce-img:nth-child(3){
-	grid-column: 8/9;
+.promotions,.News{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 89px;
 }
 
+.card{
+	background: #FFFFFF;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	border: none;
+}
+.sign-up{
+	display: flex;
+	color: white;
+}
+.input-group{
+	width: 40%;
+	padding-top: 36px;
+}
+#sign-up-text{
+	padding-top: 30px;
+	width: 59%;
+}
+.form-control{
+	border: none;
+	height: 50px;
+}
+#basic-addon2{
+	background: #B50202;
+	color: white;
+	height: 50px;
+	border: none;
+}
+.membership{
+	display: flex;	
+	width: 100%;
+	gap: 10%;
+}
+.membership-img{
+	max-width: 40%;
+	max-height: auto;
+}
+.membership-text{
+	color: white;
+	padding-top: 62px;
+	padding-bottom: 42px;
+	max-width: 50%;
+	max-height: auto;
+}
+#button-membership{
+	border-style: none;
+	padding-right: 10px;
+	background-color: #FF5000;
+}
+.footer{
+	display: flex;
+}
